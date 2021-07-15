@@ -1,0 +1,78 @@
+
+.simpsons1{
+background: gray;
+    color: yellow;
+    font-size: 18px;
+}
+.name{
+    font-size: 23px;
+}
+
+.simpsons2{
+    background: #683333;
+    color: gray;
+    font-size: 20px;
+}
+.simpsons2 h2{
+    color: yellow;
+}
+.simpsons3{
+    background: darkslategrey;
+    color: chartreuse;
+    font-size: 18px;
+}
+.simpsons3 h2{
+    color: yellow;
+}
+
+
+.product_card{
+    background: silver;
+    color: #683333;
+}
+img{
+    width: 220px;
+}
+
+
+/*-----------------------------------HW-2-HTML (ЗАВДАННЯ - 2)---*/
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    background: silver;
+}
+
+.post-card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 16%;
+    padding: 10px;
+    margin: 10px 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+}
+
+/*-----------------------------------HW-3-HTML (ЗАВДАННЯ - 3)---*/
+
+.users-box{
+    display: flex;
+    flex-wrap: wrap;
+    background: silver;
+    justify-content: space-evenly;
+
+}
+
+.user-block{
+    width: 40%;
+    padding-left: 20px;
+    margin: 20px 20px;
+    border: solid 1px rosybrown;
+
+}
+
+.address-block{
+    color: darkred;
+
+}
