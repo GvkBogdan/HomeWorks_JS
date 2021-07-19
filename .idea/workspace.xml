@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae7d8f29-8c22-437e-ad4d-4c6c27b7e2aa" name="Default Changelist" comment="beginning" />
+    <list default="true" id="ae7d8f29-8c22-437e-ad4d-4c6c27b7e2aa" name="Default Changelist" comment="HomeWorkJS2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +21,7 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="" />
@@ -38,6 +41,8 @@
       <updated>1626345920506</updated>
       <workItem from="1626345922409" duration="1077000" />
       <workItem from="1626347012707" duration="157000" />
+      <workItem from="1626347172533" duration="915000" />
+      <workItem from="1626371166097" duration="65000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1626345985006</created>
@@ -81,7 +86,35 @@
       <option name="project" value="LOCAL" />
       <updated>1626347098522</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="HomeWorkJS1">
+      <created>1626347263856</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1626347263856</updated>
+    </task>
+    <task id="LOCAL-00008" summary="HomeWorkJS1.2extra">
+      <created>1626347337052</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1626347337052</updated>
+    </task>
+    <task id="LOCAL-00009" summary="HomeWorkJS1.3extra">
+      <created>1626347371782</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1626347371782</updated>
+    </task>
+    <task id="LOCAL-00010" summary="HomeWorkJS2">
+      <created>1626347415951</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1626347415951</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +149,10 @@
     <MESSAGE value="HW-1_Js" />
     <MESSAGE value="HW-1.2_extra_Js" />
     <MESSAGE value="beginning" />
-    <option name="LAST_COMMIT_MESSAGE" value="beginning" />
+    <MESSAGE value="HomeWorkJS1" />
+    <MESSAGE value="HomeWorkJS1.2extra" />
+    <MESSAGE value="HomeWorkJS1.3extra" />
+    <MESSAGE value="HomeWorkJS2" />
+    <option name="LAST_COMMIT_MESSAGE" value="HomeWorkJS2" />
   </component>
 </project>
