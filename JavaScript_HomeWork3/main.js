@@ -39,27 +39,18 @@ console.log(sCylinder(20, 21));
 
 
 /*
-
-function minMax() {
-    let ListNumbers = [];
-    for (let i = 0; i <arguments.length ; i++) {
-        ListNumbers [i] = arguments[i]
-    }
-    let min = ListNumbers [0];
-    let max = ListNumbers [0];
-    for (const number of ListNumbers) {
-        if (number < min) {
-            min = number;
-        } else if (number > max) {
-            max = number;
-        }
+function returnMinPrintMax() {
+    let min = arguments[0];
+    let max = arguments[0];
+    for (const item of arguments) {
+        if (item > max) max = item;
+        if (item < min) min = item;
     }
     console.log(max);
     return min;
 }
-console.log(minMax(25,13,68,98,5,4,7,5,3,100)) // Задаємо аргумент
-
- */
+returnMinPrintMax (45,23,2,5,4,7,8,9,20,12,32,8)
+*/
 
 
 //-------------------------------------------------------------------------------------------
