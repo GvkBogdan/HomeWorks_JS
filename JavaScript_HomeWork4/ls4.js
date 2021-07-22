@@ -109,3 +109,161 @@ function User (id, name, surname, email, phone) {
 
  */
 
+
+
+    //---------------------------------------------additional--------------------------------------------------------
+
+
+
+
+
+    // - Створити клас або функцію конструктор, за допомоги якої можна створювати об'єкти наступного вигляду.
+    // Конструктор повинен приймати значення для кожної властивості, в т.ч і для властивостей внутрішніх об'єктів
+
+    // {
+    //     id: 1,
+    //         name: 'Leanne Graham',
+    //     username: 'Bret',
+    //     email: 'Sincere@april.biz',
+    //     address: {
+    //     street: 'Kulas Light',
+    //         street: 'Apt. 556',
+    //         city: 'Gwenborough',
+    //         zipcode: '92998-3874',
+    //         geo: {
+    //         lat: '-37.3159',
+    //             lng: '81.1496'
+    //     }
+    // },
+    //     phone: '1-770-736-8031 x56442',
+    //         website: 'hildegard.org',
+    //     company: {
+    //     name: 'Romaguera-Crona',
+    //         catchPhrase: 'Multi-layered client-server neural-net',
+    //         bs: 'harness real-time e-markets'
+    // }
+    // }
+
+
+    /*
+    class UserData {
+        constructor(id, username, email, addres, street, city, zipcode, geo, lat, lng, phone, website, company, name, catchPhrase, bs) {
+            this.id = id;
+            this.name = name;
+            this.username = username;
+            this.email = email;
+            this.addres = {street, city, zipcode, geo: {lat, lng} }
+            this.phone = phone;
+            this.website = website;
+            this.company = {name, catchPhrase, bs};
+
+        }
+    }
+    let user = new UserData(321, 'kalim', 'sdgv12135sd@gmail.com','adres','Shevchemka','Lviv',454-65,'location',-124.326,541.231,805492354,'www.tr.com','IBM','Sanya','sdcsd','sdcsd');
+    console.log(user);
+    */
+
+    /*
+
+    function Users(id, name, username, email, street, city, zipcode, lat, lng, phone, website, nameCompany, catchPhrase, bs) {
+        this.id = id;
+        this.name = name;
+        this.username = username;
+        this.email = email;
+        this.address = {};
+        this.address.street = street;
+        this.address.city = city;
+        this.address.zipcode = zipcode;
+        this.address.geo = {}
+        this.address.geo.lat = lat;
+        this.address.geo.lng = lng;
+        this.phone = phone;
+        this.website = website;
+        this.company = {};
+        this.company.nameCompany = nameCompany;
+        this.company.catchPhrase =catchPhrase;
+        this.company.bs =bs;
+    }
+
+    let user = new Users(617,'Petr','Ivanov','jnjndf@.gmoail','Shevchenka','Lviv',123-54,-231-45.23,458.255,806954123,'www.dgdf.com','BM','client-server','asdad')
+    console.log(user);
+    */
+
+
+    //-------------------------------------------------------------------------------------------------------------------
+    /*
+    class Users {
+        constructor(id, name, username, email, street, city, zipcode, lat, lng, phone, website, nameCompany, catchPhrase, bs) {
+            this.id = id;
+            this.name = name;
+            this.username = username;
+            this.email = email;
+            this.address = {street, city, zipcode, geo:{lat,lng}};
+            this.phone = phone;
+            this.website = website;
+            this.company = {nameCompany,catchPhrase,bs}
+        }
+    }
+    let user = new Users(321,'Vasa','Rak','dsfgsg@gmail.com','Zaliznuchna','Lviv',45-3210,-142.321,326.104,9851236,'www.ruta.com','sony','boss','sdff');
+    console.log(user);
+    */
+
+    //------------------------------------------------------------------------------------------------------------------
+
+    // -  Створити функцію конструктор / клас  який описує об'єкт тегу
+    // Поля :
+    //     -назва тегу ()
+    // - опис його дій
+    // - масив з атрибутами (2-3 атрибути максимум)
+    // Кожен атрибут описати як окремий який буде містити
+    // -назву атрибуту
+    // -опис дії атрибуту
+    // інформацію брати з htmlbook.ru
+    //
+    // Таким чином описати теги
+    // -a
+    // -div
+    // -h1
+    // -span
+    // -input
+    // -form
+    // -option
+    // -select
+    // Приклад результуючого об'єкту
+    // {
+    //     titleOfTag: 'area',
+    //         action: `Каждый элемент <area> определяет активные области изображения, которые являются ссылками...`,
+    //     attrs: [
+    //     {titleOfAttr: 'accesskey', actionOfAttr: 'Переход к области с помощью комбинации клавиш'},
+    //     {/*some props and values*/},
+    //     {/*...*/},
+    //     {/*...*/},
+    // ]
+    //
+    // // }
+
+
+    /*
+    class Tags {
+        constructor(titleTag,action,attrs) {
+            this.titleTag = titleTag;
+            this.action = action;
+            this.attrs = attrs;
+        }
+    }
+
+    class Attrs {
+        constructor(titleAttr,actiAttr) {
+            this.titleAttr = titleAttr ;
+            this.actiAttr = actiAttr;
+        }
+    }
+
+    tag_a = new Tags('<a>','устанавливает ссылку или якорь.',
+        [new Attrs('href','Задает адрес документа, на который следует перейти.'),
+            new Attrs('download','Предлагает скачать указанный по ссылке файл.'),
+            new Attrs('target','Имя окна или фрейма, куда браузер будет загружать документ.')])
+
+    console.log(tag_a);
+
+    */
