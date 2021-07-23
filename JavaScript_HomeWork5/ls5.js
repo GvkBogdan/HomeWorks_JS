@@ -1,60 +1,47 @@
 // - Напишіть код,  який за допомоги document.getElementById або document.getElementsByClassName або document.getElementsByTagName :
 // -- отримує текст з параграфа з id "content"
-// замініть текст параграфа з id 'content' на будь-який інший
 /*
 const p_content = document.getElementById('content');
 console.log(p_content.innerText);
 */
-
 //----------------------------------------------------------------------
-
-
-// -- отримує текст з блоку з id "rules"
-// -- замініть текст параграфа з id 'rules' на будь-який інший
 /*
+// -- отримує текст з блоку з id "rules"
 const p_rules = document.getElementById('rules');
 console.log(p_rules.innerText);
 */
-
+//--------------------------------------------------------------------------
+//замініть текст параграфа з id 'content' на будь-який інший
+/*
+const p_content = document.getElementById('content');
+console.log(p_content.innerText = 'замініть текст параграфа з id  на будь-який інший');
+*/
+//---------------------------------------------------------------------------
+// -- замініть текст параграфа з id 'rules' на будь-який інший
+/*
+const p_rules = document.getElementById('rules');
+console.log(p_rules.innerText = 'замініть текст параграфа з id \'rules\' на будь-який інший ');
+*/
 //------------------------------------------------------------------------
 
 // -- змініть кожному елементу колір фону на червоний
 /*
-const p_content = document.getElementById('content');
-console.log(p_content);
-p_content.style.backgroundColor = 'red';
+let bodyChildrenFon = document.body.children;
+for (const itemsClass of bodyChildrenFon) {
+    itemsClass.style.backgroundColor = ' red';
+}
+*/
+//-----------------------------------------------------------------
 
-const p_rules = document.getElementById('rules');
-console.log(p_rules);
-p_rules.style.backgroundColor = 'red';
-
-let fc_rules = document.getElementsByClassName('fc_rules')
-console.log(fc_rules);
-for (const fcRul of fc_rules) {
-    fcRul.style.backgroundColor = 'red'
+// -- змініть кожному елементу колір тексту на синій
+/*
+let bodyChildrenColor = document.body.children;
+for (const itemsClass of bodyChildrenColor) {
+    itemsClass.style.color = ' blue';
 }
 */
 
-//------------------------------------------------------------------
 
-// -- змініть кожному елементу колір тексту на синій
-
-/*
-const p_content = document.getElementById('content');
-console.log(p_content);
-p_content.style.color = 'blue';
-
-
-const p_rules = document.getElementById('rules');
-console.log(p_rules);
-p_rules.style.color = 'blue'
-
-let fc_rules = document.getElementsByClassName('fc_rules');
-console.log(fc_rules);
-for (const fcRul of fc_rules) {
-    fcRul.style.color = 'blue';
-    }
-*/
 
 //-------------------------------------------------------------------------------------------
 // -- отримати весь список класів елемента з id=rules і вивести їх в console.log
