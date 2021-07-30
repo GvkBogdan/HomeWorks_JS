@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae7d8f29-8c22-437e-ad4d-4c6c27b7e2aa" name="Default Changelist" comment="HW-Class-Work_JS_5">
+    <list default="true" id="ae7d8f29-8c22-437e-ad4d-4c6c27b7e2aa" name="Default Changelist" comment="HomeWork+Сlass-Work_JS_6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +49,8 @@
       <workItem from="1626856234107" duration="261000" />
       <workItem from="1626954310695" duration="220000" />
       <workItem from="1627024650852" duration="414000" />
-      <workItem from="1627418986060" duration="1177000" />
+      <workItem from="1627418986060" duration="1769000" />
+      <workItem from="1627556958215" duration="748000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1626345985006</created>
@@ -177,7 +178,21 @@
       <option name="project" value="LOCAL" />
       <updated>1627024821101</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="HW-Additional-Work_JS_5">
+      <created>1627420485316</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1627420485316</updated>
+    </task>
+    <task id="LOCAL-00020" summary="HomeWork+Сlass-Work_JS_6">
+      <created>1627557056591</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1627557056591</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +239,8 @@
     <MESSAGE value="add + additional-" />
     <MESSAGE value="HW_JS_5" />
     <MESSAGE value="HW-Class-Work_JS_5" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW-Class-Work_JS_5" />
+    <MESSAGE value="HW-Additional-Work_JS_5" />
+    <MESSAGE value="HomeWork+Сlass-Work_JS_6" />
+    <option name="LAST_COMMIT_MESSAGE" value="HomeWork+Сlass-Work_JS_6" />
   </component>
 </project>
