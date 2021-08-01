@@ -36,9 +36,10 @@ fetch('https://jsonplaceholder.typicode.com/comments')
 
         }
     })
-*/
+
 
 //-----------------------------------------ClassWorck---------------------------------------------------------
+*/
 
 /*
 
@@ -80,7 +81,8 @@ fetch('https://jsonplaceholder.typicode.com/posts')
 
                             let commentUsers = document.createElement('p');
                             commentUsers.innerText = `${comments.body}`;
-                            postBlock.append(commentUsers);
+                            commentBlock.appendChild(commentUsers)
+                            postBlock.append(commentBlock);
 
                         }
 
@@ -96,5 +98,6 @@ fetch('https://jsonplaceholder.typicode.com/posts')
 
     })
 
+*/
 
- */
+
