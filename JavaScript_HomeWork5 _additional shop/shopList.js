@@ -30,7 +30,7 @@ if (ourProduct === null){
         productImg.src = element.imgProduct;
 
         let deleteBtn = document.createElement('button');
-        deleteBtn.innerText = `Delete${i}`
+        deleteBtn.innerText = `Delete`
         deleteBtn.onclick = function () {
 
             ourProduct = ourProduct.filter(element => element.id !== i);
